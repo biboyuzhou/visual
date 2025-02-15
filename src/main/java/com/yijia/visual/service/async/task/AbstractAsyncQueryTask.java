@@ -11,7 +11,7 @@ import java.util.concurrent.CountDownLatch;
  * @date: 2025/02/15 15:02:59
  * @version:1.0
  */
-public class AbstractAsyncQueryTask<T> implements Callable<List<T>> {
+public abstract class AbstractAsyncQueryTask<T> implements Callable<List<T>> {
     private String index;
 
     private String tableName;
