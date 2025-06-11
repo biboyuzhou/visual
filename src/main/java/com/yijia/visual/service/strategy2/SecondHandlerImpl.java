@@ -12,7 +12,7 @@ import java.util.List;
  * @date: 2025/01/12 20:48:59
  * @version:1.0
  */
-@Service
+@Service("SecondHandlerImpl2")
 public class SecondHandlerImpl extends AbstractTaskHandler {
     @Override
     public boolean handle() {
